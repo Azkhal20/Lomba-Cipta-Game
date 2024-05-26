@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Judul Game</title>
     <style>
-        
-    </style>
+	html, body { 
+		margin: 0;
+		overflow: hidden;
+	}
+	canvas { 
+		padding: 0; 
+		margin: auto; 
+		display: block; 
+		width:100%;
+	}
+	#gameArea {
+		width:80%; 
+		position:absolute;
+	}
+	#game {
+		margin:50px;
+	}
+	</style>
+ 	<script type="text/javascript" src="https://wandah.org/js/gameLib.js"></script>       
 </head>
 <body>
-    <div id="game">
-		<div id="gameArea"><canvas id="canvas"></canvas></div>
-	</div>
-    <h1>Hello, World!</h1>
-    <h2>Yosua Kontol</h2>
+<div id="game">
+	<div id="gameArea"><canvas id="canvas"></canvas></div>
+</div>
 </body>
+<script type="text/javascript" src="js/game.js"></script>
 </html>
